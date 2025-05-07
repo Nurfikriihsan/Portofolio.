@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.png", type: "image/svg+xml" },
+      { url: "/images/fabicon.png", type: "image/png" },
     ],
-    apple: { url: "/favicon.png", type: "image/svg+xml" },
+    apple: { url: "/images/fabicon.png", type: "image/png" },
   },
     generator: 'v0.dev'
 }
@@ -35,6 +35,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/images/fabicon.png" />
+      </head>
       <body className={`${inter.variable} ${poppins.variable} font-sans`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <PageTransition />

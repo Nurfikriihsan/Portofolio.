@@ -167,17 +167,18 @@ export default function Certifications() {
             <motion.div key={index} variants={itemVariants} className="h-full">
               <Card className="hover-lift hover:shadow-md transition-all duration-300 h-full overflow-hidden">
                 <div
-                  className="relative h-48 w-full overflow-hidden bg-muted/50 cursor-pointer"
+                  className="relative pt-[75%] w-full overflow-hidden bg-muted/50 cursor-pointer"
                   onClick={() => openModal(cert)}
                 >
                   <Image
                     src={cert.image || "/placeholder.svg"}
                     alt={cert.title}
                     fill
-                    className="object-cover transition-transform duration-500 hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-contain absolute top-0 left-0 w-full h-full p-2 transition-transform duration-500 hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
-                    <span className="text-sm font-medium text-white">{cert.date}</span>
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                  <span className="text-sm font-medium text-white">{cert.date}</span>
                   </div>
                 </div>
                 <CardContent className="p-6">

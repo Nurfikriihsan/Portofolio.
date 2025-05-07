@@ -35,7 +35,7 @@ export default function CertificateModal({ isOpen, onClose, certificate }: Certi
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-3xl">
+      <DialogContent className="sm:max-w-3xl max-h-[90vh] overflow-y-auto">
         <DialogHeader className="flex flex-row items-center justify-between">
           <DialogTitle>{certificate.title}</DialogTitle>
           <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8 p-0">
@@ -43,12 +43,13 @@ export default function CertificateModal({ isOpen, onClose, certificate }: Certi
             <span className="sr-only">Close</span>
           </Button>
         </DialogHeader>
-        <div className="relative h-[60vh] w-full mt-4 bg-muted/20 rounded-md overflow-hidden">
+        <div className="relative w-full pt-[75%] mt-4 bg-muted/20 rounded-md overflow-hidden">
           <Image
             src={certificate.image || "/placeholder.svg"}
             alt={certificate.title}
             fill
-            className="object-contain"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            className="object-contain absolute top-0 left-0 w-full h-full p-4"
           />
         </div>
         <div className="mt-4">

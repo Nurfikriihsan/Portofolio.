@@ -19,6 +19,15 @@ const projectsData = [
     codeLink: "https://github.com/Nurfikriihsan/Kelompok_3_Aljabar_Linier.git",
   },
   {
+    title: "Portofolio",
+    description:
+      "Website portfolio pribadi yang dibuat untuk menampilkan perjalanan saya. Website ini dirancang dengan desain yang modern dan responsif, berisi informasi tentang skill teknis, pengalaman, serta proyek-proyek yang pernah saya kerjakan.",
+    technologies: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion", "Shadcn UI"],
+    image: "/images/Portofolio 2.png",
+    demoLink: "https://nurfikriihsan.vercel.app/",
+    codeLink: "https://github.com/Nurfikriihsan/Portofolio..git",
+  },
+  {
     title: "E-Commerce Product Page",
     description:
       "Website e-commerce product dengan desain modern. Fitur utama meliputi galeri gambar produk, detail harga dan deskripsi, tombol jumlah barang, serta desain responsif untuk berbagai perangkat. Desain ini menonjolkan antarmuka yang bersih dan ramah pengguna.",
@@ -26,15 +35,6 @@ const projectsData = [
     image: "/images/E - Commerce Product.png",
     demoLink: "#",
     codeLink: "#",
-  },
-  {
-    title: "Portofolio",
-    description:
-      "Website portfolio pribadi yang dibuat untuk menampilkan perjalanan saya. Website ini dirancang dengan desain yang modern dan responsif, berisi informasi tentang skill teknis, pengalaman, serta proyek-proyek yang pernah saya kerjakan.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/images/Portofolio.png",
-    demoLink: "https://nurfikriihsan.github.io/Portofolio/",
-    codeLink: "https://github.com/Nurfikriihsan/Portofolio.git",
   },
   {
     title: "Lezato - Burger Website",
@@ -46,13 +46,31 @@ const projectsData = [
     codeLink: "https://github.com/Nurfikriihsan/Lezato.git",
   },
   {
-    title: "Restaurant",
+    title: "Portofolio",
     description:
-      "Loren ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    technologies: ["HTML", "CSS", "SASS", "JavaScript"],
-    image: "/images/Restaurant.png",
-    demoLink: "https://nurfikriihsan.github.io/Restaurant/",
-    codeLink: "https://github.com/Nurfikriihsan/Restaurant.git",
+      "Website portfolio pribadi yang dibuat untuk menampilkan perjalanan saya. Website ini dirancang dengan desain yang modern dan responsif, berisi informasi tentang skill teknis, pengalaman, serta proyek-proyek yang pernah saya kerjakan.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    image: "/images/Portofolio 1.png",
+    demoLink: "https://nurfikriihsan.github.io/Portofolio/",
+    codeLink: "https://github.com/Nurfikriihsan/Portofolio.git",
+  },
+  {
+    title: "Task Tracker Cli",
+    description:
+      "Task Tracker CLI adalah aplikasi command line sederhana berbasis JavaScript yang menyimpan data dalam file JSON. Aplikasi ini memungkinkan pengguna menambahkan, mengedit, menghapus, dan mengatur status tugas (belum dikerjakan, sedang dikerjakan, selesai), serta menampilkan daftar tugas berdasarkan status.",
+    technologies: ["JavaScript", "JSON"],
+    image: "/images/Task Tracker Cli.png",
+    demoLink: "#",
+    codeLink: "https://github.com/Nurfikriihsan/Task-Tracker-Cli.git",
+  },
+  {
+    title: "Expense Tracker Cli",
+    description:
+      "Expense Tracker CLI adalah aplikasi command line berbasis Python yang menyimpan data pengeluaran dalam file JSON. Aplikasi ini memungkinkan pengguna mencatat, memperbarui, menghapus, dan melihat ringkasan pengeluaran, termasuk per bulan, untuk membantu mengontrol keuangan langsung dari terminal.",
+    technologies: ["Python", "JSON"],
+    image: "/images/Expense Tracker Cli.png",
+    demoLink: "#",
+    codeLink: "https://github.com/Nurfikriihsan/Expense-Tracker.git",
   },
 ]
 
@@ -101,12 +119,13 @@ export default function Projects() {
           {projectsData.map((project, index) => (
             <motion.div key={index} variants={itemVariants} className="h-full">
               <Card className="overflow-hidden h-full flex flex-col hover-lift hover:shadow-md transition-all duration-300">
-                <div className="relative h-64 w-full overflow-hidden">
+                <div className="relative pt-[56.25%] w-full overflow-hidden bg-muted/50">
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     fill
-                    className="object-cover transition-transform duration-500 hover:scale-110"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    className="object-contain absolute top-0 left-0 w-full h-full p-2 transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <CardContent className="p-6 flex-grow flex flex-col">
