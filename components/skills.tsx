@@ -7,20 +7,15 @@ import { Progress } from "@/components/ui/progress"
 import ScrollAnimation from "./scroll-animation"
 
 const skills = [
-  { name: "Microsoft Excel, Word, PowerPoint", percentage: 90 },
-  { name: "TypeScript", percentage: 40 },
-  { name: "HTML, CSS, dan JavaScript", percentage: 85 },
-  { name: "React.js & Next.js", percentage: 67 },
-  { name: "Node.js & Express.js", percentage: 90 },
+  { name: "Microsoft Excel, Word, & PowerPoint", percentage: 82 },
+  { name: "HTML, CSS, & JavaScript", percentage: 85 },
+  { name: "React.js & Next.js", percentage: 50 },
+  { name: "Node.js & Express.js", percentage: 80 },
   { name: "Git & GitHub", percentage: 87 },
-  { name: "MySQL & Oracle Database", percentage: 85 },
-  { name: "Data Science & Machine Learning", percentage: 65 },
-  { name: "UI/UX Design", percentage: 75 },
-  { name: "Analisis Data", percentage: 60 },
-  { name: "Python", percentage: 70 },
-  { name: "Wireshark", percentage: 69 },
-  { name: "Postman", percentage: 80 },
-  { name: "Ilmu Komputer & Cyber Security", percentage: 75 },
+  { name: "MySQL & Oracle Database", percentage: 83 },
+  { name: "Python, C/C++, & Flutter", percentage: 68 },
+  { name: "Wireshark, Postman, & Figma", percentage: 73 },
+  { name: "Cyber Security", percentage: 60 },
 ]
 
 export default function Skills() {
