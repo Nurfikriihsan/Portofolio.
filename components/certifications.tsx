@@ -12,20 +12,12 @@ import CertificateModal from "./certificate-modal"
 // Updated data structure to include image and preview link
 const certificationsData = [
   {
-    date: "January 10, 2024",
-    title: "Introduction to Cybersecurity",
-    description:
-      "Sertifikat ini membuktikan pemahaman dasar keamanan siber, termasuk ancaman, risiko, dan perlindungan.",
-    image: "/images/Introduction to Cybersecurity.png",
-    previewLink: "#",
-  },
-  {
     date: "June 21, 2024",
     title: "JavaScript Essentials 1",
     description:
       "Sertifikat ini menandakan penguasaan dasar JavaScript, meliputi sintaksis, fungsi, struktur data, dan penerapannya pada pengembangan aplikasi web.",
     image: "/images/JavaScript Essentials 1.png",
-    previewLink: "#",
+    previewLink: "https://www.credly.com/badges/f4e32ea9-2365-4716-b7de-21008dede7f2/public_url",
   },
   {
     date: "July 30, 2024",
@@ -33,7 +25,7 @@ const certificationsData = [
     description:
       "Sertifikat ini menunjukkan penguasaan konsep dasar jaringan, termasuk perangkat jaringan, protokol, dan cara jaringan diimplementasikan dalam berbagai skala.",
     image: "/images/Introduction To Networks.png",
-    previewLink: "#",
+    previewLink: "https://www.credly.com/badges/7e69193a-179f-4077-b9a3-24337518236d/public_url",
   },
   {
     date: "Oct 22, 2024",
@@ -41,7 +33,7 @@ const certificationsData = [
     description:
       "Sertifikat ini menunjukkan pemahaman dasar tentang kecerdasan buatan, termasuk algoritma, pembelajaran mesin, dan penerapannya untuk mengembangkan solusi inovatif yang meningkatkan efisiensi dan kinerja di berbagai sektor industri.",
     image: "/images/Al Fundamentals.png",
-    previewLink: "#",
+    previewLink: "https://www.datacamp.com/skill-verification/AIF0020567381312",
   },
   {
     date: "Oct 28, 2024",
@@ -81,7 +73,7 @@ const certificationsData = [
     description:
       "Sertifikat ini menunjukkan pemahaman dasar pemrograman Python, mencakup sintaks, variabel, fungsi, kontrol alur, dan penerapannya dalam pengembangan aplikasi dan analisis data.",
     image: "/images/Introduction to Python.png",
-    previewLink: "#",
+    previewLink: "https://www.datacamp.com/completed/statement-of-accomplishment/course/a83eed7803254d8bd2ddab5a73b56c0a45e411a9",
   },
   {
     date: "Jan 6 - 7, 2025",
@@ -89,7 +81,7 @@ const certificationsData = [
     description:
       "Sertifikat ini diberikan atas partisipasi dalam Bootcamp Kilat UI/UX Design pada 6 - 7 Januari 2025, membahas prinsip dan praktik terbaik desain antarmuka pengguna.",
     image: "/images/UI - UX Design.png",
-    previewLink: "#",
+    previewLink: "https://drive.google.com/file/d/1CP5M7E_JoFDEux_ZSlYoiU8FrrVKJtXY/view?usp=drive_link",
   },
   {
     date: "Jan 16, 2025",
@@ -97,7 +89,7 @@ const certificationsData = [
     description:
       "Sertifikat ini menunjukkan pemahaman dasar tentang cybersecurity, ancaman, perlindungan, dan praktik terbaik di bidang keamanan digital.",
     image: "/images/Introduction to Cybersecurity Dicoding.png",
-    previewLink: "#",
+    previewLink: "https://www.credly.com/badges/50587754-6aa2-4038-a307-4ca88dd904a6/public_url",
   },
   {
     date: "Feb 27, 2025",
@@ -105,7 +97,31 @@ const certificationsData = [
     description:
       "Sertifikat ini menunjukkan pemahaman tentang perangkat jaringan, subnetting, ARP, DNS, DHCP, serta konfigurasi dasar menggunakan Cisco IOS.",
     image: "/images/Networking Devices and Initial Configuration.png",
-    previewLink: "#",
+    previewLink: "https://www.credly.com/badges/018416d8-86a1-47c6-835e-3e7a089659dd/public_url",
+  },
+  {
+    date: "May 23, 2025",
+    title: "Menerapkan rekayasa prompt dengan Azure OpenAI Service",
+    description:
+      "Sertifikat ini menunjukkan pemahaman mengenai teknik rekayasa prompt (prompt engineering) untuk mengoptimalkan penggunaan Azure OpenAI Service. Pelatihan mencakup konsep dasar pemanfaatan AI generatif, praktik penggunaan API Azure OpenAI, serta studi kasus penerapan dalam konteks bisnis dan teknologi berbasis cloud.",
+    image: "/images/Menerapkan Rekayasa Prompt dengan Azure OpenAI Service.png",
+    previewLink: "https://drive.google.com/file/d/1GS1csyiEbzO-xxrau527mhqIHvU5UNpB/view?usp=drive_link",
+  },
+  {
+    date: "May 23, 2025",
+    title: "Dasar Keamanan AI",
+    description:
+      "Sertifikat ini menunjukkan pemahaman mengenai prinsip dasar keamanan pada sistem kecerdasan buatan. Materi pelatihan mencakup ancaman keamanan umum pada AI, privasi data, keamanan model pembelajaran mesin, serta strategi mitigasi risiko dalam penerapan teknologi AI secara etis dan bertanggung jawab.",
+    image: "/images/Dasar Keamanan AI.png",
+    previewLink: "https://drive.google.com/file/d/1O7leSIHr3EpXvp-ss-0umnjysYgb44EN/view?usp=drive_link",
+  },
+  {
+    date: "June 01, 2025",
+    title: "AI Beginner",
+    description:
+      "Sertifikat ini menunjukkan bahwa berhasil menyelesaikan pelatihan dasar dalam bidang Artificial Intelligence (AI). Materi mencakup pengenalan konsep AI, machine learning, supervised dan unsupervised learning, serta penerapannya dalam kehidupan nyata. Pelatihan ini juga memberikan wawasan tentang perkembangan teknologi AI dan potensi dampaknya di berbagai sektor industri.",
+    image: "/images/ AI Beginner.png",
+    previewLink: "https://drive.google.com/file/d/1tUl8FnRPuLaF4vtbNaiY-0tMCbfpkA-T/view?usp=drive_link",
   },
 ]
 
