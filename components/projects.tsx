@@ -54,24 +54,6 @@ const projectsData = [
     demoLink: "https://nurfikriihsan.github.io/Portofolio/",
     codeLink: "https://github.com/Nurfikriihsan/Portofolio.git",
   },
-  {
-    title: "Task Tracker Cli",
-    description:
-      "Task Tracker CLI adalah aplikasi command line sederhana berbasis JavaScript yang menyimpan data dalam file JSON. Aplikasi ini memungkinkan pengguna menambahkan, mengedit, menghapus, dan mengatur status tugas (belum dikerjakan, sedang dikerjakan, selesai), serta menampilkan daftar tugas berdasarkan status.",
-    technologies: ["JavaScript", "JSON"],
-    image: "/images/Task Tracker Cli.png",
-    demoLink: "#",
-    codeLink: "https://github.com/Nurfikriihsan/Task-Tracker-Cli.git",
-  },
-  {
-    title: "Expense Tracker Cli",
-    description:
-      "Expense Tracker CLI adalah aplikasi command line berbasis Python yang menyimpan data pengeluaran dalam file JSON. Aplikasi ini memungkinkan pengguna mencatat, memperbarui, menghapus, dan melihat ringkasan pengeluaran, termasuk per bulan, untuk membantu mengontrol keuangan langsung dari terminal.",
-    technologies: ["Python", "JSON"],
-    image: "/images/Expense Tracker Cli.png",
-    demoLink: "#",
-    codeLink: "https://github.com/Nurfikriihsan/Expense-Tracker.git",
-  },
 ]
 
 export default function Projects() {
