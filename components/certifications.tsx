@@ -104,7 +104,7 @@ const certificationsData = [
     title: "Menerapkan rekayasa prompt dengan Azure OpenAI Service",
     description:
       "Sertifikat ini menunjukkan pemahaman mengenai teknik rekayasa prompt (prompt engineering) untuk mengoptimalkan penggunaan Azure OpenAI Service. Pelatihan mencakup konsep dasar pemanfaatan AI generatif, praktik penggunaan API Azure OpenAI, serta studi kasus penerapan dalam konteks bisnis dan teknologi berbasis cloud.",
-    image: "public/images/Menerapkan Rekayasa Prompt dengan Azure OpenAI Service.png",
+    image: "/images/Menerapkan-Rekayasa-Prompt-dengan-Azure-OpenAI-Service.png",
     previewLink: "https://drive.google.com/file/d/1GS1csyiEbzO-xxrau527mhqIHvU5UNpB/view?usp=drive_link",
   },
   {
@@ -112,7 +112,7 @@ const certificationsData = [
     title: "Dasar Keamanan AI",
     description:
       "Sertifikat ini menunjukkan pemahaman mengenai prinsip dasar keamanan pada sistem kecerdasan buatan. Materi pelatihan mencakup ancaman keamanan umum pada AI, privasi data, keamanan model pembelajaran mesin, serta strategi mitigasi risiko dalam penerapan teknologi AI secara etis dan bertanggung jawab.",
-    image: "public/images/Dasar Keamanan AI.png",
+    image: "/images/Dasar-Keamanan-AI.png",
     previewLink: "https://drive.google.com/file/d/1O7leSIHr3EpXvp-ss-0umnjysYgb44EN/view?usp=drive_link",
   },
   {
@@ -120,7 +120,7 @@ const certificationsData = [
     title: "AI Beginner",
     description:
       "Sertifikat ini menunjukkan bahwa berhasil menyelesaikan pelatihan dasar dalam bidang Artificial Intelligence (AI). Materi mencakup pengenalan konsep AI, machine learning, supervised dan unsupervised learning, serta penerapannya dalam kehidupan nyata. Pelatihan ini juga memberikan wawasan tentang perkembangan teknologi AI dan potensi dampaknya di berbagai sektor industri.",
-    image: "public/images/AI Beginner.png",
+    image: "/images/AI-Beginner.png",
     previewLink: "https://drive.google.com/file/d/1tUl8FnRPuLaF4vtbNaiY-0tMCbfpkA-T/view?usp=drive_link",
   },
 ]
