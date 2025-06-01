@@ -54,7 +54,7 @@ export default function CertificateModal({ isOpen, onClose, certificate }: Certi
         </div>
         <div className="mt-4">
           <p className="text-sm text-muted-foreground mb-2">{certificate.date}</p>
-          <p className="text-sm">{certificate.description}</p>
+          <p className="text-sm text-justify">{certificate.description}</p>
         </div>
       </DialogContent>
     </Dialog>
