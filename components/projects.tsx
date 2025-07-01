@@ -50,7 +50,7 @@ const projectsData = [
     description:
       "Aplikasi pemesanan makanan Nusaeat merupakan project kuliah yang dikembangkan sebagai platform web untuk memudahkan pengguna memesan makanan dan minuman khas Nusantara secara cepat dan praktis. Aplikasi ini dilengkapi fitur pencarian, filter kategori, keranjang belanja, serta desain antarmuka yang modern dan ramah pengguna.",
     technologies: ["PHP", "Bootstrap", "JavaScript", "MySQL", "Rest API"],
-    image: "/images/Nusaeat 1.jpg",
+    image: "/images/Nusaeat 2.png",
     demoLink: "http://nusaeattt.infinityfreeapp.com",
     codeLink: "#",
   },
