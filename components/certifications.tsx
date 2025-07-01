@@ -127,7 +127,7 @@ const certificationsData = [
     date: "June 08, 2025",
     title: "AI Intermediate: App Track",
     description:
-      "Sertifikat ini menunjukkan bahwa berhasil menyelesaikan pelatihan tingkat menengah dalam bidang Artificial Intelligence (AI). Materi mencakup integrasi aplikasi AI dengan cloud, pengelolaan container, serta deployment otomatis menggunakan Azure Kubernetes Service. Pelatihan ini juga membahas pipeline CI/CD dan manajemen container untuk mendukung aplikasi yang skalabel. Program ini memberikan wawasan tentang penerapan teknologi AI di lingkungan industri.",
+      "Sertifikat ini menunjukkan bahwa berhasil menyelesaikan pelatihan tingkat menengah dalam bidang Artificial Intelligence (AI). Materi mencakup integrasi aplikasi AI dengan cloud, pengelolaan container, serta deployment otomatis menggunakan Azure Kubernetes Service. Pelatihan ini juga membahas pipeline CI/CD dan manajemen container untuk mendukung aplikasi yang skalabel.",
     image: "/images/AI Intermediate App Track.png",
     previewLink: "https://drive.google.com/file/d/1Qsp0ZKUrfGetf8pBmEIwFvAET31Ras5d/view?usp=drive_link",
   },
