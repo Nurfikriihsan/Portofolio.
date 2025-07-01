@@ -123,6 +123,22 @@ const certificationsData = [
     image: "/images/AI Beginner.png",
     previewLink: "https://drive.google.com/file/d/1tUl8FnRPuLaF4vtbNaiY-0tMCbfpkA-T/view?usp=drive_link",
   },
+  {
+    date: "June 08, 2025",
+    title: "AI Intermediate: App Track",
+    description:
+      "Sertifikat ini menunjukkan bahwa berhasil menyelesaikan pelatihan tingkat menengah dalam bidang Artificial Intelligence (AI). Materi mencakup integrasi aplikasi AI dengan cloud, pengelolaan container, serta deployment otomatis menggunakan Azure Kubernetes Service. Pelatihan ini juga membahas pipeline CI/CD dan manajemen container untuk mendukung aplikasi yang skalabel. Program ini memberikan wawasan tentang penerapan teknologi AI di lingkungan industri.",
+    image: "/images/AI Intermediate App Track.png",
+    previewLink: "https://drive.google.com/file/d/1Qsp0ZKUrfGetf8pBmEIwFvAET31Ras5d/view?usp=drive_link",
+  },
+  {
+    date: "June 02, 2025",
+    title: "ElevAlte With Dicoding",
+    description:
+      "Sertifikat ini menunjukkan bahwa telah berhasil menyelesaikan program pengembangan keterampilan digital kolaborasi Microsoft dan Dicoding. Materi mencakup teknologi cloud, pemrograman modern, serta penerapan solusi teknologi untuk berbagai kebutuhan industri. Pelatihan ini juga memperdalam pemahaman dalam membangun aplikasi dan mendukung transformasi digital.",
+    image: "/images/ElevAlte With Dicoding Program.png",
+    previewLink: "https://learn.microsoft.com/api/achievements/share/en-us/NurfikriIhsan-6351/PLUATDD4?sharingId=5CD03B134504E5B6",
+  },
 ]
 
 export default function Certifications() {
