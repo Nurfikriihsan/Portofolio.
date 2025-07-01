@@ -12,7 +12,7 @@ const projectsData = [
   {
     title: "Analisis Efisiensi Pembelajaran Hibrida",
     description:
-      "Proyek ini mengevaluasi hubungan durasi belajar tatap muka dan online dengan hasil akademik menggunakan regresi linier dalam dashboard Streamlit interaktif. Tujuannya adalah memberi wawasan efektivitas pembelajaran hibrida berbasis data.",
+      "Proyek perkuliahan ini menganalisis hubungan durasi belajar tatap muka dan online dengan hasil akademik mahasiswa menggunakan regresi linier dalam dashboard interaktif berbasis Streamlit. Aplikasi ini memvisualisasikan data secara otomatis untuk mendukung evaluasi efektivitas pembelajaran hibrida. Proyek ini dikembangkan secara berkelompok bersama Ananda Tirta Riyadi dan Nadia Safitri.",
     technologies: ["Python", "NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Streamlit"],
     image: "/images/Aljabar Linier.png",
     demoLink: "https://klmp-3-aljabar-antara.streamlit.app/",
@@ -26,15 +26,6 @@ const projectsData = [
     image: "/images/Portofolio 2.png",
     demoLink: "https://nurfikriihsan.vercel.app/",
     codeLink: "https://github.com/Nurfikriihsan/Portofolio..git",
-  },
-  {
-    title: "E-Commerce Product Page",
-    description:
-      "Website e-commerce product dengan desain modern. Fitur utama meliputi galeri gambar produk, detail harga dan deskripsi, tombol jumlah barang, serta desain responsif untuk berbagai perangkat. Desain ini menonjolkan antarmuka yang bersih dan ramah pengguna.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/images/E - Commerce Product.png",
-    demoLink: "#",
-    codeLink: "#",
   },
   {
     title: "Lezato - Burger Website",
@@ -53,6 +44,15 @@ const projectsData = [
     image: "/images/Portofolio 1.png",
     demoLink: "https://nurfikriihsan.github.io/Portofolio/",
     codeLink: "https://github.com/Nurfikriihsan/Portofolio.git",
+  },
+  {
+    title: "Nusaeat",
+    description:
+      "Aplikasi pemesanan makanan Nusaeat merupakan project kuliah yang dikembangkan sebagai platform web untuk memudahkan pengguna memesan makanan dan minuman khas Nusantara secara cepat dan praktis. Aplikasi ini dilengkapi fitur pencarian, filter kategori, keranjang belanja, serta desain antarmuka yang modern dan ramah pengguna, sehingga mendukung pengalaman pemesanan yang nyaman sekaligus mendukung promosi kuliner lokal agar lebih dikenal luas.",
+    technologies: ["PHP", "Bootstrap", "JavaScript", "MySQL", "Rest API"],
+    image: "/images/Nusaeat.png",
+    demoLink: "http://nusaeattt.infinityfreeapp.com",
+    codeLink: "#",
   },
 ]
 
